@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-netflix",
+  "version": "1.0.0-alpha.0",
+  "description": "Shared ESLint config for Netflix JavaScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Netflix/eslint-config-netflix.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "shared",
+    "lint",
+    "plugin",
+    "netflix"
+  ],
+  "author": "James J. Womack <jwomack@netflix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Netflix/eslint-config-netflix/issues"
+  },
+  "homepage": "https://github.com/Netflix/eslint-config-netflix#readme",
+  "peerDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^3.0.0"
+  }
+}
