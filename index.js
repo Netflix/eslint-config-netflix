@@ -71,7 +71,6 @@ module.exports = {
     "prefer-rest-params": 2,
     "prefer-spread": 2,
     "yield-star-spacing": 2,
-    "no-var": 2,
 
     "object-curly-spacing": [ 2, "always" ],
     "quotes": [ 2, "single", "avoid-escape" ],
