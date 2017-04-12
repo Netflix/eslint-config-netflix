@@ -1,3 +1,12 @@
+<a name="1.0.1"></a>
+### 1.0.1 (2017-04-12)
+
+
+#### Bug Fixes
+
+* react's not a peer dep here ([21858de8](git+https://github.com/Netflix/eslint-config-netflix.git/commit/21858de8))
+
+
 <a name="1.0.0"></a>
 ## 1.0.0 (2017-04-12)
 
