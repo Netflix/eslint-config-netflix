@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Netflix/eslint-config-netflix#readme",
   "peerDependencies": {
-    "babel-eslint": "^6.0.0",
-    "eslint": "^3.0.0"
+    "babel-eslint": "^7.0.0",
+    "eslint-plugin-react": "^6.10.3"
   }
 }

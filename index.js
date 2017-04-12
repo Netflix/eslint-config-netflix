@@ -16,10 +16,12 @@ module.exports = {
   },
   "rules": {
     "array-bracket-spacing": [ 2, "always" ],
+    "array-callback-return": 2,
     "camelcase": 0,
+    "class-methods-use-this": 2,
     "comma-dangle": [ 2, "never" ],
     "comma-style": [ 2, "last" ],
-    "curly": 0,
+    "curly": [ 2,"multi"],
     "dot-notation": [ 2, { "allowKeywords": true } ],
     "eol-last": 2,
     "eqeqeq": [ 2, "allow-null" ],
@@ -36,6 +38,8 @@ module.exports = {
     "no-cond-assign": [ 2, "except-parens" ],
     "no-debugger": 2,
     "no-empty": 2,
+    "no-empty-function": 2,
+    "no-lone-blocks": 2,
     "no-eval": 2,
     "no-extend-native": 2,
     "no-extra-parens": 2,
@@ -54,11 +58,18 @@ module.exports = {
     "no-undef": 2,
     "no-underscore-dangle": 0,
     "no-unused-expressions": 0,
-    "no-unused-vars": ["error", { "args": "none" }],
+    "no-unused-vars": 2,
     "no-var": 2,
     "no-with": 2,
 
 
+    "no-useless-constructor": 2,
+    "no-useless-rename": ["error", {
+      "ignoreDestructuring": true,
+      "ignoreImport": true,
+      "ignoreExport": true
+    }],
+    "no-template-curly-in-string": 2,
 
     "prefer-const": ["error", {
       "destructuring": "any",
@@ -67,10 +78,13 @@ module.exports = {
     "generator-star-spacing": ["error", {"before": true, "after": true}],
     "no-const-assign": 2,
     "no-empty-pattern": 2,
-    "no-useless-rename": 2,
+    "prefer-arrow-callback": 2,
     "prefer-rest-params": 2,
     "prefer-spread": 2,
+    "prefer-template": 2,
+    "template-curly-spacing": ["error", "never"],
     "yield-star-spacing": 2,
+    "no-var": 2,
 
     "object-curly-spacing": [ 2, "always" ],
     "quotes": [ 2, "single", "avoid-escape" ],
