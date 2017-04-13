@@ -61,6 +61,7 @@ module.exports = {
     "no-unused-vars": 2,
     "no-var": 2,
     "no-with": 2,
+    "no-redeclare": 2,
 
 
     "no-useless-constructor": 2,
@@ -84,7 +85,6 @@ module.exports = {
     "prefer-template": 2,
     "template-curly-spacing": ["error", "never"],
     "yield-star-spacing": 2,
-    "no-var": 2,
 
     "object-curly-spacing": [ 2, "always" ],
     "quotes": [ 2, "single", "avoid-escape" ],
