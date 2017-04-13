@@ -1,3 +1,16 @@
+<a name="1.0.2-0"></a>
+### 1.0.2-0 (2017-04-13)
+
+
+#### Breaking Changes
+
+* 
+* (feat) no-reclare added as an error
+* (fix) duplicate no-var removed
+
+ ([bc339e7a](git+https://github.com/Netflix/eslint-config-netflix.git/commit/bc339e7a))
+
+
 <a name="1.0.1"></a>
 ### 1.0.1 (2017-04-12)
 
