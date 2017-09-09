@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-netflix",
-  "version": "2.0.0-beta.0",
+  "version": "2.0.0",
   "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
   "main": "index.js",
   "repository": {
