@@ -1,3 +1,21 @@
+<a name="2.0.0"></a>
+## 2.0.0 (2017-09-08)
+
+
+#### Features
+
+* support use with latest react-scripts ([2202dcdc](git+https://github.com/Netflix/eslint-config-netflix.git/commit/2202dcdc))
+
+
+#### Breaking Changes
+
+* 
+* (feat) no-reclare added as an error
+* (fix) duplicate no-var removed
+
+ ([bc339e7a](git+https://github.com/Netflix/eslint-config-netflix.git/commit/bc339e7a))
+
+
 <a name="1.0.2-0"></a>
 ### 1.0.2-0 (2017-04-13)
 
