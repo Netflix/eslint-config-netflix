@@ -1,12 +1,15 @@
 {
   "name": "eslint-config-netflix",
-  "version": "1.0.2-0",
-  "description": "Shared ESLint config for Netflix JavaScript",
+  "version": "2.0.0-beta.0",
+  "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Netflix/eslint-config-netflix.git"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint",
     "config",
@@ -23,6 +26,16 @@
   "homepage": "https://github.com/Netflix/eslint-config-netflix#readme",
   "peerDependencies": {
     "babel-eslint": "^7.0.0",
-    "eslint": "^3.19.0"
+    "eslint": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.2",
+    "eslint": "4.2.0",
+    "tap-difflet": "0.7.0",
+    "tape": "4.6.3"
+  },
+  "scripts": {
+    "lint": "eslint -c index.js ./",
+    "test": "node --harmony ./node_modules/.bin/tape test/*.js | tap-difflet"
   }
 }
