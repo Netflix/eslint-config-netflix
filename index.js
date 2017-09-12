@@ -39,6 +39,7 @@ module.exports = {
     'no-debugger': 2,
     'no-empty': 2,
     'no-empty-function': 2,
+    'no-func-assign': 2,
     'no-lone-blocks': 2,
     'no-eval': 2,
     'no-extend-native': 2,
@@ -62,6 +63,7 @@ module.exports = {
     'no-var': 2,
     'no-with': 2,
     'no-redeclare': 2,
+    'no-self-assign': [ 'error', { 'props': true } ],
 
 
     'no-useless-constructor': 2,

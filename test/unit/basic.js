@@ -1,4 +1,4 @@
-const config = require('../')
+const config = require('../../')
 const test = require('tape')
 
 test('test basic properties of config', t => {

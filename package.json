@@ -32,10 +32,11 @@
     "babel-eslint": "7.2.2",
     "eslint": "4.2.0",
     "tap-difflet": "0.7.0",
-    "tape": "4.6.3"
+    "tape": "4.6.3",
+    "testlint": "^1.0.1"
   },
   "scripts": {
     "lint": "eslint -c index.js ./",
-    "test": "node --harmony ./node_modules/.bin/tape test/*.js | tap-difflet"
+    "test": "node --harmony ./node_modules/.bin/tape test/unit/*.js | tap-difflet"
   }
 }
