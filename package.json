@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-netflix",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
   "main": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/Netflix/eslint-config-netflix#readme",
   "peerDependencies": {
-    "babel-eslint": "^7.0.0",
-    "eslint": "^4.0.0"
+    "babel-eslint": "10.x",
+    "eslint": "5.x"
   }
 }
