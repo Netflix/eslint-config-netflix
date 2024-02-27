@@ -1,7 +1,8 @@
 {
   "name": "eslint-config-netflix",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
+  "type": "module",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -18,25 +19,25 @@
     "plugin",
     "netflix"
   ],
-  "author": "James J. Womack <jwomack@netflix.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Netflix/eslint-config-netflix/issues"
   },
-  "homepage": "https://github.com/Netflix/eslint-config-netflix#readme",
+  "homepage": "https://github.com/Netflix/eslint-config-netflix",
   "peerDependencies": {
-    "babel-eslint": "^7.0.0",
-    "eslint": "^4.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "7.2.2",
-    "eslint": "4.2.0",
-    "tap-difflet": "0.7.0",
-    "tape": "4.6.3",
-    "testlint": "^1.0.1"
+    "eslint": "^8.57.0"
   },
   "scripts": {
-    "lint": "eslint -c index.js ./",
-    "test": "node --harmony ./node_modules/.bin/tape test/unit/*.js | tap-difflet"
-  }
+    "test": "ESLINT_USE_FLAT_CONFIG=true eslint --config index.js --debug ."
+  },
+  "contributors": [
+    {
+      "name": "Casey Klebba",
+      "email": "cklebba@netflix.com"
+    },
+    {
+      "name": "James J. Womack",
+      "email": "jwomack@netflix.com"
+    }
+  ]
 }
