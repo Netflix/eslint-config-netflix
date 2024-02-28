@@ -1,3 +1,19 @@
+<a name="3.0.0"></a>
+## 3.0.0 (2024-02-27)
+
+
+#### Features
+
+* Use ESLint flag configuration format
+
+
+#### Breaking Changes
+
+* 
+* ESLint upgraded
+* NPM package-lock.json format upgarded
+* Dropped support for Babel
+
 <a name="2.0.0"></a>
 ## 2.0.0 (2017-09-08)
 
