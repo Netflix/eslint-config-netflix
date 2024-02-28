@@ -8,7 +8,7 @@ npm test
 ```
 
 Philosophy:
-* Aim to enforce rules which reduce syntax related software bugs
+* Aim to publish rules that flag syntax associated with software bugs (e.g. `no-fallthrough`)
 * Adopt rules that steer developers away from outdated language features (e.g. `no-var`)
 * Avoid the temptation to enforce stylistic preferences; integrators should do this locally
 * Be more useful than `js.configs.recommended.rules`
