@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-netflix",
+  "name": "@netflix/eslint-config-netflix",
   "version": "3.0.0",
   "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
   "type": "module",
