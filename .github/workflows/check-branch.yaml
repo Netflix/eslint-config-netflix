@@ -1,0 +1,6 @@
+# Run tests on pushes to all branches.
+name: Check Branch
+on: [push]
+jobs:
+  test:
+    uses: ./.github/workflows/test.yaml

@@ -1,0 +1,16 @@
+# Run tests and publish to all registries if successful.
+name: Publish
+on:
+  release:
+    types: [published]
+jobs:
+  test:
+    uses: ./.github/workflows/test.yaml
+  publish-to-npm:
+    needs: test
+    uses: ./.github/workflows/publish-to-npm.yaml
+    secrets: inherit
+  publish-to-jsr:
+    needs: test
+    uses: ./.github/workflows/publish-to-jsr.yaml
+    secrets: inherit

@@ -1,0 +1,19 @@
+# Publish package to JSR.
+name: Publish to JSR
+on: [workflow_call]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      # Can we get this to use “deno publish”?
+      # - run: deno publish
+      - run: npx jsr publish
