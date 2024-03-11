@@ -1,0 +1,14 @@
+# Test flow triggered by other workflows.
+name: Test
+on: [workflow_call]
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+      - run: npm ci
+      - run: npm test

@@ -4,6 +4,7 @@
 #### Features
 
 * Use ESLint flag configuration format
+* Support for publishing to NPM / JSR via GitHub Actions.
 
 #### Breaking Changes
 

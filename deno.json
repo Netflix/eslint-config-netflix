@@ -1,0 +1,5 @@
+{
+  "name": "@netflix/eslint-config-netflix",
+  "version": "3.0.0",
+  "exports": "./index.js"
+}
