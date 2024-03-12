@@ -4,6 +4,11 @@
   "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
   "type": "module",
   "main": "index.js",
+  "module": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Netflix/eslint-config-netflix.git"
