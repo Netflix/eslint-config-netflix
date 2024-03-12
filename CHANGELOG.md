@@ -1,63 +1,57 @@
-<a name="3.0.0"></a>
-## 3.0.0 (2024-02-27)
+# Changelog
 
-#### Features
+All notable changes to this project will be documented in this file.
 
-* Use ESLint flag configuration format
-* Support for publishing to NPM / JSR via GitHub Actions.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-#### Breaking Changes
+## [Unreleased]
 
-* ESLint upgraded
-* Dropped support for Babel
-* Removed all other project dependencies
+### Added
 
-<a name="2.0.0"></a>
-## 2.0.0 (2017-09-08)
+- Use ESLint flag configuration format
+- Support for publishing to NPM / JSR via GitHub Actions.
 
-#### Features
+### Changed
 
-* support use with latest react-scripts
+- ESLint upgraded
+- Removed all other project dependencies
 
-#### Breaking Changes
+### Removed
 
-* (feat) no-reclare added as an error
-* (fix) duplicate no-var removed
+- Dropped support for Babel
 
-<a name="1.0.2-0"></a>
-## 1.0.2-0 (2017-04-13)
+## [2.0.0] - 2017-09-08
 
-#### Breaking Changes
+### Added
 
-* (feat) no-reclare added as an error
-* (fix) duplicate no-var removed
+- Support use with latest react-scripts
 
-<a name="1.0.1"></a>
-## 1.0.1 (2017-04-12)
+### Changed
 
-#### Bug Fixes
+- (fix) duplicate no-var removed
 
-* react's not a peer dep here
+### Removed
 
-<a name="1.0.0"></a>
-## 1.0.0 (2017-04-12)
+- (feat) no-reclare added as an error
 
-#### Features
+## [1.0.1] - 2017-04-12
 
-* various rule additions
+### Fixed
 
-#### Breaking Changes
+- react's not a peer dep here
 
-* Class methods much use this
-* Template brackets in tem,plate strings only
+## [1.0.0] - 2017-04-12
+
+### Added
+
+- Final changes before “1.0.0” release (previously only “alpha” releases)
+- various rule additions
+
+### Changed
+
+- Class methods much use this
+- Template brackets in tem,plate strings only
   (to help catch typos and facillitate replacing
    older templating solutions)
-* Encouraging arrow fns in callbacks
-
-## 1.0.0-alpha.2 (07.18.2016)
-
-Relax prefer-arrow-callback, no-unused-vars, curly
-
-## 1.0.0-alpha.1 (07.18.2016)
-
-Initial alpha release
+- Encouraging arrow fns in callbacks
