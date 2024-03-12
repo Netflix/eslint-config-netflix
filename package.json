@@ -28,7 +28,8 @@
     "eslint": "^8.57.0"
   },
   "scripts": {
-    "test": "ESLINT_USE_FLAT_CONFIG=true eslint --config index.js --debug ."
+    "test": "ESLINT_USE_FLAT_CONFIG=true eslint --config index.js --debug .",
+    "bump": "./bump.sh"
   },
   "contributors": [
     {
