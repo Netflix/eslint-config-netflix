@@ -1,5 +1,8 @@
 {
-  "name": "@netflix/eslint-config-netflix",
+  "name": "@netflix/eslint-config",
   "version": "3.0.0-rc.2",
+  "imports": {
+    "@eslint/js": "npm:@eslint/js@^8.21.0"
+  },
   "exports": "./index.js"
 }
