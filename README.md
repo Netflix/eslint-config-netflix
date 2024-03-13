@@ -3,7 +3,7 @@
 See ESLint docs on [flat configuration](https://eslint.org/docs/latest/use/configure/configuration-files-new)
 
 ```sh
-npm install --save-dev @Netflix/eslint-config-netflix
+npm install --save-dev @netflix/eslint-config
 npm test
 ```
 
@@ -19,7 +19,7 @@ Example usage:
 
 ```js
 import globals from 'globals';
-import NetflixCommon from '@Netflix/eslint-config-netflix';
+import NetflixCommon from '@netflix/eslint-config';
 
 export default [
   {

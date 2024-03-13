@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - ESLint upgraded
 - Removed all other project dependencies
+- Updated package name to “@netflix/eslint-config”
 
 ### Removed
 

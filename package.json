@@ -1,5 +1,5 @@
 {
-  "name": "@netflix/eslint-config-netflix",
+  "name": "@netflix/eslint-config",
   "version": "3.0.0-rc.2",
   "description": "An ESLint config for JavaScript projects, brought to you by Netflix",
   "type": "module",
@@ -30,7 +30,10 @@
   },
   "homepage": "https://github.com/Netflix/eslint-config-netflix",
   "peerDependencies": {
-    "eslint": "^8.57.0"
+    "@eslint/js": "^8.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
   },
   "scripts": {
     "test": "ESLINT_USE_FLAT_CONFIG=true eslint --config index.js --debug .",
