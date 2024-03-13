@@ -10,7 +10,8 @@ jobs:
     needs: test
     uses: ./.github/workflows/publish-to-npm.yaml
     secrets: inherit
-  publish-to-jsr:
-    needs: test
-    uses: ./.github/workflows/publish-to-jsr.yaml
-    secrets: inherit
+  # TODO: Peer packages don’t yet exist so we cannot publish here just yet.
+  # publish-to-jsr:
+  #   needs: test
+  #   uses: ./.github/workflows/publish-to-jsr.yaml
+  #   secrets: inherit
