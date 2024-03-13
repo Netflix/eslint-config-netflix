@@ -12,3 +12,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
       - run: npm test
+      - run: npm unpublish --force @netflix/eslint-config-netflix@3.0.0-rc.3
+        env:
+          # The secrets should be implicitly passed via “secrets: inherit”.
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

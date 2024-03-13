@@ -4,3 +4,4 @@ on: [push]
 jobs:
   test:
     uses: ./.github/workflows/test.yaml
+    secrets: inherit
