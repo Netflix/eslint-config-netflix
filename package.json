@@ -30,10 +30,10 @@
   },
   "homepage": "https://github.com/Netflix/eslint-config-netflix",
   "peerDependencies": {
-    "@eslint/js": "^8.21.0"
+    "@eslint/js": "^9.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.21.0"
+    "eslint": "^9.0.0"
   },
   "scripts": {
     "test": "ESLINT_USE_FLAT_CONFIG=true eslint --config index.js --debug .",
