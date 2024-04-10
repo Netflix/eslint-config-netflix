@@ -19,7 +19,6 @@ export default {
   rules: {
     ...js.configs.recommended.rules,
     ...deprecated,
-    'array-callback-return': 'warn',
     'eqeqeq': 'error',
     'guard-for-in': 'warn',
     'no-bitwise': 'warn',
