@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- ESLint upgraded (v9, major release)
+
 ### Removed
 
 - Rule removed: `array-callback-return`
