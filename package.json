@@ -30,16 +30,20 @@
   },
   "homepage": "https://github.com/Netflix/eslint-config-netflix",
   "peerDependencies": {
-    "@eslint/js": "^9.0.0"
+    "@eslint/js": "^9.1.1"
   },
   "devDependencies": {
-    "eslint": "^9.0.0"
+    "eslint": "^9.1.1"
   },
   "scripts": {
-    "test": "ESLINT_USE_FLAT_CONFIG=true eslint --config index.js --debug .",
+    "test": "eslint --config index.js --debug .",
     "bump": "./bump.sh"
   },
   "contributors": [
+    {
+      "name": "Andrew Seier",
+      "email": "aseier@netflix.com"
+    },
     {
       "name": "Casey Klebba",
       "email": "cklebba@netflix.com"
